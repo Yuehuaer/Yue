@@ -116,13 +116,7 @@ HOST, sdkconfig.ad.xiaomi.com, REJECT
 ;HOST, hub5idx.v6.shub.sandai.net, REJECT
 
 # ======= Y ======= #
-# 云闪付 开屏广告
-HOST, ads.95516.com, REJECT
-HOST, cm-10-138.getui.com, REJECT
-HOST, sdk.open.talk.getui.net, REJECT
-HOST, sdk-conf.getui.com, REJECT
-HOST, switch.cup.com.cn, REJECT
-HOST, tysdk.95516.com, REJECT
+
 
 # ======= Z ======= #
 # 知乎
