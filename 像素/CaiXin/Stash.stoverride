@@ -1,0 +1,15 @@
+name: 财新会员
+desc: 解锁财新文章阅读与音频限制 @Functional_Store_Hub
+http:
+  mitm:
+    - 'gateway.caixin.com'
+  script:
+    - match: ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth)
+      name: CaiXin
+      type: request
+      require-body: false
+      timeout: 10
+script-providers:
+  CaiXin:
+    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js
+    interval: 86400
