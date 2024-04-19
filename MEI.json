@@ -1,0 +1,17 @@
+{
+    "id": "yuehuakq",
+    "name": "yuehuakq 脚本订阅",
+    "author": "@yuehuakq",
+    "icon": "https://avatars2.githubusercontent.com/u/12446619?s=460&v=4",
+    "repo": "https://github.com/Yuehuaer/QX",
+    "apps": [{
+            "id": "MEIZITU",
+            "name": "妹子",
+            "keys": ["evil_tokenurl", "evil_tokencheckinurl", "evil_tokenheaders", "evil_tokencheckinheaders", "evil_tokenurl2", "evil_tokencheckinurl2", "evil_tokenheaders2", "evil_tokencheckinheaders2"],
+            "settings": [{
+                    "id": "wb_delete_cookie",
+                    "name": "打开清空cookie功能",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": ""
+                }
