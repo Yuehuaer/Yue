@@ -1,17 +1,53 @@
 {
-    "id": "yuehuakq",
-    "name": "yuehuakq 脚本订阅",
-    "author": "@yuehuakq",
+    "id": "yuehua",
+    "name": "yuehua 脚本订阅",
+    "author": "@yuehua",
     "icon": "https://avatars2.githubusercontent.com/u/12446619?s=460&v=4",
-    "repo": "https://github.com/Yuehuaer/QX",
-    "apps": [{
-            "id": "MEIZITU",
+    "repo": "https://github.com/Yuehuaer/scripts",
+    "apps": [
+        {
+            "id": "MEI",
             "name": "妹子",
-            "keys": ["evil_tokenurl", "evil_tokencheckinurl", "evil_tokenheaders", "evil_tokencheckinheaders", "evil_tokenurl2", "evil_tokencheckinurl2", "evil_tokenheaders2", "evil_tokencheckinheaders2"],
-            "settings": [{
+            "keys": [
+                "evil_tokenurl",
+                "evil_tokencheckinurl",
+                "evil_tokenheaders",
+                "evil_tokencheckinheaders",
+                "evil_tokenurl2",
+                "evil_tokencheckinurl2",
+                "evil_tokenheaders2",
+                "evil_tokencheckinheaders2"
+            ],
+            "settings": [
+                {
                     "id": "wb_delete_cookie",
                     "name": "打开清空cookie功能",
                     "val": false,
                     "type": "boolean",
                     "desc": ""
+                },
+                {
+                    "id": "wb_msg_max_num",
+                    "name": "每个通知显示超话数",
+                    "val": 30,
+                    "type": "number",
+                    "desc": "每页最显示多少个超话"
+                },
+                {
+                    "id": "wb_request_time",
+                    "name": "获取间隔 (毫秒)",
+                    "val": 700,
+                    "type": "number",
+                    "desc": "每个图片签到的间隔（超话大于50个的，建议填1000以上）"
                 }
+            ],
+            "author": "@yuehua",
+            "repo": "https://github.com/Yuehua/QX",
+            "icons": [
+                "https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png",
+                "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"
+            ],
+            "script": "https://raw.githubusercontent.com/github.com/Yuehua/QX/mian/MEI.js"
+        }
+    ]
+}
