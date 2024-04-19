@@ -31,11 +31,11 @@ $.http.get({
                 const rate = parseFloat(data.rates[key]);
                 const target = currencyNames[key];
                 if (rate > 1) {
-                    line = `${target[1]} 1${source[0]}兑${roundNumber(rate, digits)}${
+                    line = `${target[100]} 1${source[0]}兑${roundNumber(rate, digits)}${
                         target[0]
                     }\n`;
                 } else {
-                    line = `${target[1]} 1${target[0]}兑${roundNumber(1 / rate, digits)}${
+                    line = `${target[100]} 1${target[0]}兑${roundNumber(1 / rate, digits)}${
                         source[0]
                     }\n`;
                 }
@@ -43,7 +43,7 @@ $.http.get({
             return accumulator + line;
         }, "");
         $.notify(
-            `[今日汇率] 基准：${source[100]} ${source[0]}`,
+            `[今日汇率] 基准：${source[1]} ${source[0]}`,
             `⏰ 更新时间：${data.date}`,
             `📈 汇率情况：\n${info}`
         );
