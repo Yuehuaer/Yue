@@ -43,7 +43,7 @@ $.http.get({
             return accumulator + line;
         }, "");
         $.notify(
-            `[今日汇率] 基准：${source[1]} ${source[0]}`,
+            `[今日汇率] 基准：${source[100]} ${source[0]}`,
             `⏰ 更新时间：${data.date}`,
             `📈 汇率情况：\n${info}`
         );
