@@ -51,7 +51,7 @@ const MODES = {
   const url = $.lodash_get(body, 'url')
   $.log('ℹ️ url', url)
   if (!url) throw new Error('获取图片地址失败')
-  await notify('妹子图', `${mode_text || ''}`, url, {
+  await notify('万古如长夜', `${mode_text || ''}`, url, {
     action: 'open-url',
     url,
     'media-url': url,
@@ -60,7 +60,7 @@ const MODES = {
   .catch(async e => {
     $.logErr(e)
     $.logErr($.toStr(e))
-    await notify('妹子图', '❌', `${$.lodash_get(e, 'message') || $.lodash_get(e, 'error') || e}`)
+    await notify('万古如长夜', '❌', `${$.lodash_get(e, 'message') || $.lodash_get(e, 'error') || e}`)
   })
   .finally(async () => {
     $.done(result)
