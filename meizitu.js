@@ -16,14 +16,14 @@ $.log(`从持久化存储读取参数后: ${$.toStr(arg)}`)
 let result = {}
 
 const MODES = {
-  0: '随机',
+  0: '莫测高深',
   1: '微博',
   2: 'Instagram',
   3: 'Cosplay',
   5: 'MTCos',
-  7: '美腿',
+  7: '翩跹',
   8: 'Coser',
-  9: '兔玩映画',
+  9: '映画',
 }
 
 !(async () => {
