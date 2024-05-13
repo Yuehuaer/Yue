@@ -1,4 +1,4 @@
-// 此脚本需要在 Quantumult X 的脚本功能中运行
+// 此脚本需要在Quantumult X的脚本功能中运行
 
 // 定义请求的 URL
 const url = "https://www.meizi5.com/";
@@ -16,13 +16,23 @@ $httpClient.get(url, function(error, response, data) {
 
     // 循环匹配所有图片链接
     while ((match = regex.exec(data)) !== null) {
+      // 添加图片链接到数组
       images.push(match[1]);
     }
 
-    // 输出所有找到的图片链接
-    console.log("Found " + images.length + " images: " + images.join(", "));
+    // 检查是否找到图片
+    if (images.length > 0) {
+      // 选择第一张图片进行展示
+      const firstImage = images[0];
 
-    // 通知用户（Quantumult X 支持的通知方式）
-    $notification.post("图片链接获取完成", "", "共找到" + images.length + "张图片");
+      // 在Quantumult X中展示通知
+      $notification.post("图片获取成功", "", "第一张图片: " + firstImage);
+      // 这里可以添加更多的逻辑来处理其他图片
+    } else {
+      $notification.post("图片获取失败", "", "没有找到图片链接");
+    }
+
+    // 输出所有找到的图片链接
+    console.log("Found images: " + images.join(", "));
   }
 });
