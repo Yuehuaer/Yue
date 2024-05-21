@@ -29,7 +29,6 @@
 		{"key":"火狐资源","name":"🔴火狐资源","type":1,"api":"https://hhzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 		{"key":"新浪资源","name":"🔴新浪资源","type":1,"api":"https://api.xinlangapi.com/xinlangapi.php/provide/vod/","searchable":1,"quickSearch":1},
 		{"key":"快云资源","name":"🔴快云资源","type":1,"api": "https://www.kuaiyunzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1}
-  {"key": "csp_Missav", "name": "🟣MISS", "type": 3, "api": "csp_Missav", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1}]}
   {"key":"森林资源","name":"🟣森林资源","type":1,"api":"https://slapibf.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 	{"key":"探探资源","name":"🟣探探资源","type":1,"api":"https://apittzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 	{"key":"奥斯资源","name":"🟣奥斯卡资源网","type":1,"api":"https://aosikazy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
