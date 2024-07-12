@@ -14,8 +14,9 @@ var Yue = $response.body;
 var obj =  JSON.parse(Yue);
 
 if($request.url.indexOf("/api/userinfo") != -1) {
-    obj.nickName = "Yuehua";
-    obj.isPaymentMember = obj.isMember = true;
+    obj.nickName = "Yuehua";//修改名称
+    obj.isPaymentMember = obj.isMember = true;//这两个本来是两行，用=号来相等为true
+
 }
 
 Yue = JSON.stringify(obj);
