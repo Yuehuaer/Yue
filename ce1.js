@@ -1,23 +1,36 @@
 /******************************
-脚本功能：万能播放器-解锁会员
+脚本功能：书书猫
 脚本作者：Yue
-更新时间：2024-06-15
+更新时间：2024-07-12
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/www\.40sishi\.com\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/bofang.js
+^https:\/\/api\.iyykj\.cn\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/ce1.js
 [mitm] 
-hostname = www.40sishi.com
+hostname = api.iyykj.cn
 *******************************/
 var Yue = $response.body;
 var obj =  JSON.parse(Yue);
-if($request.url.indexOf("/seaplayer/user/profile") != -1) {
-   obj.data.vipState =  {
-     "startTime": "1970-01-01",
-     "state": 1,
-     "forever": true,
-     "expireTime": "2999-01-01"
-   };
+if($request.url.indexOf("/api/app/user/info") != -1) {
+  "code" : 200,
+  "data" : {
+    "beanNum" : 0,
+    "vipEndTime" : null,
+    "inviteCode" : "SZRGUB4V",
+    "gmtCreate" : "2024-07-12T16:19:52",
+    "userName" : "bl0104882",
+    "userStatus" : 1,
+    "vipFlag" : 1,
+    "nickName" : "Yue",
+    "avatar" : null,
+    "invitedFlag" : true,
+    "goldNum" : 0,
+    "vipType" : 0,
+    "vipStartTime" : 2099-01-01T00:00:00,
+    "gender" : 0
+  },
+  "msg" : "获取成功",
+  "traceId" : "5c005461-803c-4fad-9031-91c3f8b7bdf4"
 }
 Yue = JSON.stringify(obj);
 $done(Yue);
