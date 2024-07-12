@@ -26,7 +26,7 @@ if($request.url.indexOf("/api/app/user/info") != -1) {
     "avatar" : null,
     "invitedFlag" : true,
     "goldNum" : 0,
-    "vipType" : 0,
+    "vipType" : 1,
     "vipStartTime" : 2099-01-01T00:00:00,
     "gender" : 0
   },
