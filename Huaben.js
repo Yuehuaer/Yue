@@ -5,7 +5,7 @@
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
 [rewrite_local]
-^https:\/\/user\.ihuaben\.com\/ url script-response-body https://raw.githubusercontent.com/Yuehuaer/QX/main/huaben.js
+^https:\/\/user\.ihuaben\.com\/ url script-response-body https://raw.githubusercontent.com/Yuehuaer/QX/main/Huaben.js
 [mitm] 
 hostname = user.ihuaben.com
 *******************************/
