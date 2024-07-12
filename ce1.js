@@ -1,6 +1,6 @@
 /******************************
 脚本功能：书书猫
-脚本作者：Yue
+脚本作者：Yuer
 更新时间：2024-07-12
 使用声明：️仅供学习交流, 🈲️商业用途
 *******************************
@@ -9,8 +9,8 @@
 [mitm] 
 hostname = api.iyykj.cn
 *******************************/
-var Yue = $response.body;
-var obj =  JSON.parse(Yue);
+var Yuer = $response.body;
+var obj =  JSON.parse(Yuer);
 if($request.url.indexOf("/api/app/user/info") != -1) 
  obj={
    "code" : 200,
@@ -30,5 +30,5 @@ if($request.url.indexOf("/api/app/user/info") != -1)
     "vipStartTime" : 2024-07-11T00:00:00,
     "gender" : 0
 }
-Yue = JSON.stringify(obj);
-$done({body;Yue});
+Yuer = JSON.stringify(obj);
+$done({body;Yuer});
