@@ -12,7 +12,8 @@ hostname = api.iyykj.cn
 var Yue = $response.body;
 var obj =  JSON.parse(Yue);
 if($request.url.indexOf("/api/app/user/info") != -1) {
-  "code" : 200,
+ obj={
+   "code" : 200,
   "data" : {
     "beanNum" : 0,
     "vipEndTime" : 2099-01-01T00:00:00,
@@ -31,6 +32,7 @@ if($request.url.indexOf("/api/app/user/info") != -1) {
   },
   "msg" : "获取成功",
   "traceId" : "5c005461-803c-4fad-9031-91c3f8b7bdf4"
+ };
 }
 Yue = JSON.stringify(obj);
-$done(Yue);
+$done({body;Yue});
