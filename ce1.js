@@ -15,7 +15,7 @@ if($request.url.indexOf("/api/app/user/info") != -1) {
   "code" : 200,
   "data" : {
     "beanNum" : 0,
-    "vipEndTime" : null,
+    "vipEndTime" : 2099-01-01T00:00:00,
     "inviteCode" : "SZRGUB4V",
     "gmtCreate" : "2024-07-12T16:19:52",
     "userName" : "bl0104882",
