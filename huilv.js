@@ -35,11 +35,11 @@ $.http.get({
                 const rate = parseFloat(data.rates[key]);
                 const target = currencyNames[key];
                 if (rate > 1) {
-                    line = `${target[1]} 1${source[0]}兑${roundNumber(rate, digits)}${
+                    line = `${target[1]} 100${source[0]}兑${roundNumber(rate, digits)}${
                         target[0]
                     }\n`;
                 } else {
-                    line = `${target[1]} 1${target[0]}兑${roundNumber(1 / rate, digits)}${
+                    line = `${target[1]} 100${target[0]}兑${roundNumber(1 / rate, digits)}${
                         source[0]
                     }\n`;
                 }
