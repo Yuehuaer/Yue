@@ -1,5 +1,6 @@
 /**
  * 监控汇率变化
+ * @author: Peng-YM
  * 更新地址：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
  * 配置方法：
  * 1. 设置基准货币，默认人民币(CNY)。
@@ -12,11 +13,11 @@ const digits = 2; // 保留几位有效数字
 
 const $ = API("exchange");
 const currencyNames = {
-    HKD: ["港币", "🇭🇰"],
     JPY: ["日元", "🇯🇵"],
+    HKD: ["港币", "🇭🇰"],
+    CNY: ["人民币", "🇨🇳"],
     USD: ["美元", "🇺🇸"],
     EUR: ["欧元", "🇪🇺"],
-    CNY: ["人民币", "🇨🇳"],
     GBP: ["英镑", "🇬🇧"],
 };
 
@@ -33,7 +34,7 @@ $.http.get({
             if (key !== base && data.rates.hasOwnProperty(key)) {
                 const rate = parseFloat(data.rates[key]);
                 const target = currencyNames[key];
-                if (rate > 100) {
+                if (rate > 1) {
                     line = `${target[1]} 1${source[0]}兑${roundNumber(rate, digits)}${
                         target[0]
                     }\n`;
@@ -46,7 +47,7 @@ $.http.get({
             return accumulator + line;
         }, "");
         $.notify(
-            `[今日汇率] 基准：${source[1]} ${source[0]}`,
+            `[今日汇率] 基准：${source[100]} ${source[0]}`,
             `⏰ 更新时间：${data.date}`,
             `📈 汇率情况：\n${info}`
         );
