@@ -1,23 +1,14 @@
-/******************************
-脚本功能：万能播放器-解锁会员
-脚本作者：Yue
-更新时间：2024-06-15
-使用声明：️仅供学习交流, 🈲️商业用途
-*******************************
-[rewrite_local]
-^https:\/\/www\.40sishi\.com\/ url script-response-body https://raw.githubusercontent.com/afengye/QX/main/bofang.js
-[mitm] 
-hostname = www.40sishi.com
-*******************************/
-var Yue = $response.body;
-var obj =  JSON.parse(Yue);
-if($request.url.indexOf("/seaplayer/user/profile") != -1) {
-   obj.data.vipState =  {
-     "startTime": "1970-01-01",
-     "state": 1,
-     "forever": true,
-     "expireTime": "2999-01-01"
-   };
-}
-Yue = JSON.stringify(obj);
-$done(Yue);
+shadowsocks=46.29.162.72:32145, method=aes-256-gcm, password=2a117bd4077d9a53, fast-open=false, udp-relay=false, tag=🇸🇬 新加坡
+shadowsocks=193.53.126.91:31251, method=aes-256-gcm, password=df14ff552867fbf9, fast-open=false, udp-relay=false, tag=🇬🇧 英国
+shadowsocks=45.130.147.16:32156, method=aes-256-gcm, password=dfc78593808d4f68, fast-open=false, udp-relay=false, tag=🇰🇷 韩国
+vmess=hkvvrdjobfe.com:443, method=aes-128-gcm, password=fe34491f-9045-4a14-9034-4ce00194eb61, obfs=wss, obfs-host=hkvvrdjobfe.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇭🇰 香港
+vmess=jpvbshohcgc.com:443, method=aes-128-gcm, password=fe34491f-9045-4a14-9034-4ce00194eb61, obfs=wss, obfs-host=jpvbshohcgc.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇯🇵 日本
+vmess=znbogneyvo.site:443, method=aes-128-gcm, password=fa71bbaf-d28c-49a2-b212-832908424ebd, obfs=wss, obfs-host=znbogneyvo.site, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇺🇸 美国
+vmess=twvoyccdebb.com:443, method=aes-128-gcm, password=fe34491f-9045-4a14-9034-4ce00194eb61, obfs=wss, obfs-host=twvoyccdebb.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇹🇼 台湾
+vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇮🇳 印度
+vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇮🇹 意大利
+vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇦🇹 奥地利
+vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇹🇷 土耳其
+vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇨🇦 加拿大
+vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇪🇸 西班牙
+vmess=vip001.indiavideo.cfd:443, method=aes-128-gcm, password=f05f9396-1f2f-4c2f-82a3-b0ae78727fe6, obfs=wss, obfs-host=vip001.indiavideo.cfd, obfs-uri=/linkws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇫🇷 法国01
