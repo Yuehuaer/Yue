@@ -1,14 +1,45 @@
-shadowsocks=46.29.162.72:32145, method=aes-256-gcm, password=2a117bd4077d9a53, fast-open=false, udp-relay=false, tag=🇸🇬 新加坡
-shadowsocks=193.53.126.91:31251, method=aes-256-gcm, password=df14ff552867fbf9, fast-open=false, udp-relay=false, tag=🇬🇧 英国
-shadowsocks=45.130.147.16:32156, method=aes-256-gcm, password=dfc78593808d4f68, fast-open=false, udp-relay=false, tag=🇰🇷 韩国
-vmess=hkvvrdjobfe.com:443, method=aes-128-gcm, password=fe34491f-9045-4a14-9034-4ce00194eb61, obfs=wss, obfs-host=hkvvrdjobfe.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇭🇰 香港
-vmess=jpvbshohcgc.com:443, method=aes-128-gcm, password=fe34491f-9045-4a14-9034-4ce00194eb61, obfs=wss, obfs-host=jpvbshohcgc.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇯🇵 日本
-vmess=znbogneyvo.site:443, method=aes-128-gcm, password=fa71bbaf-d28c-49a2-b212-832908424ebd, obfs=wss, obfs-host=znbogneyvo.site, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇺🇸 美国
-vmess=twvoyccdebb.com:443, method=aes-128-gcm, password=fe34491f-9045-4a14-9034-4ce00194eb61, obfs=wss, obfs-host=twvoyccdebb.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇹🇼 台湾
-vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇮🇳 印度
-vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇮🇹 意大利
-vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇦🇹 奥地利
-vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇹🇷 土耳其
-vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇨🇦 加拿大
-vmess=dkzbofzkop.com:443, method=aes-128-gcm, password=fa1897db-1925-4c86-a495-939a959af900, obfs=wss, obfs-host=dkzbofzkop.com, obfs-uri=/rbqqvws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇪🇸 西班牙
-vmess=vip001.indiavideo.cfd:443, method=aes-128-gcm, password=f05f9396-1f2f-4c2f-82a3-b0ae78727fe6, obfs=wss, obfs-host=vip001.indiavideo.cfd, obfs-uri=/linkws, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇫🇷 法国01
+    - { name: '剩余流量：128.48 GB', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 45611, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 套餐到期：2024-11-08, type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 45611, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇭🇰 Hong Kong 01', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 45611, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇭🇰 Hong Kong 02', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 14149, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇭🇰 Hong Kong 03', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10000, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇭🇰 Hong Kong 04', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10001, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇭🇰 Hong Kong 05', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10015, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇭🇰 Hong Kong 06', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10016, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇭🇰 Hong Kong 07', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10017, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇭🇰 Hong Kong 08', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10018, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇯🇵 Japan 01', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 19563, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇯🇵 Japan 02', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 43641, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇯🇵 Japan 03', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 28436, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇯🇵 Japan 04', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 12994, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇯🇵 Japan 05', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10019, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇯🇵 Japan 06', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10020, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇯🇵 Japan 07', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10021, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇯🇵 Japan 08', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10022, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇸🇬 Singapore 01', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 14337, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇸🇬 Singapore 02', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 43934, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇸🇬 Singapore 03', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10002, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇸🇬 Singapore 04', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10003, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇸🇬 Singapore 05', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10032, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇸🇬 Singapore 06', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10033, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇸🇬 Singapore 07', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10034, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇸🇬 Singapore 08', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10035, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇨🇳 Taiwan 01', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 50937, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇺🇸 United States 01', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 25818, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇺🇸 United States 02', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 28287, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇺🇸 United States 03', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10038, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇺🇸 United States 04', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10039, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇺🇸 United States 05', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10040, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇺🇸 United States 06', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10041, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇺🇸 United States 07', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10042, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇺🇸 United States 08', type: ss, server: aca-cm-js-4g.cfprefer1.xyz, port: 10043, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 'United Kingdom 01', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10013, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 'United Kingdom 02', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10014, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: '🇭🇰 Hong Kong | 家宽 3.0x', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10065, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 'South Korea | 家宽 3.0x', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10053, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 'New Zealand | 家宽 3.0x', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10056, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 'Pakistan | 家宽 3.0x', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10059, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 'Turkey | 冷门', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10005, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 'Argentina | 冷门', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10006, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 'Nigeria | 冷门', type: ss, server: rhsdrhwa.cfprefer1.xyz, port: 10037, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
+    - { name: 'US-Emby专用 0.01x', type: ss, server: dtjaswffgyjh.cfprefer1.xyz, port: 39808, cipher: aes-256-gcm, password: 169e8696-c6cb-42b2-95cf-e9ef10fa9dfb, udp: true }
