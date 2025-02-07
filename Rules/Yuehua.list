@@ -1,1 +1,8 @@
-1
+#自用域名规则
+#------------------------------------------------------------------
+#  - DOMAIN-SUFFIX,yuehua.xin,Proxy
+
+  - DOMAIN-KEYWORD,douyin,DIRECT
+  - DOMAIN-SUFFIX,invite.stotik.com,DIRECT
+  - DOMAIN-SUFFIX,m-team.cc,DIRECT
+  - DOMAIN-SUFFIX,m-team.io,DIRECT
