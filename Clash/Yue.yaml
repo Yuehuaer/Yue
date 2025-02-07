@@ -129,6 +129,8 @@ rules:
   
   - DOMAIN-KEYWORD,douyin,DIRECT
   - DOMAIN-SUFFIX,invite.stotik.com,DIRECT
+  - DOMAIN-SUFFIX,m-team.cc,DIRECT
+  - DOMAIN-SUFFIX,m-team.io,DIRECT
 #  - DOMAIN-SUFFIX,yuehua.xin,Proxy
 
 # TUN模式是通过在操作系统上安装一个虚拟网卡来实现的，它可以接管所有的网络流量，并将流量转发至Clash，然后由Clash发出请求
